@@ -17,25 +17,63 @@ const styles = StyleSheet.create({
     textAlign: "center",
     color: chart.colorTitle,
     fontFamily: chart.fontTitle,
-  },
-  tapButton: {
-    width: "30%",
-    backgroundColor: chart.colorFont,
-    padding: 5,
-    borderRadius: 5,
-    alignItems: "center",
-  },
-  tapButtonText: {
-    color: chart.colorBack,
-    fontFamily: chart.fontApp,
+    fontSize: 30,
   },
   tempoMaker: {
-    backgroundColor: chart.colorFont,
     flexDirection: "row",
     alignItems: "center",
     borderRadius: 5,
     padding: 5,
     margin: 5,
+  },
+  tempoMakerText: {
+    color: chart.colorFont,
+    fontFamily: chart.fontApp,
+  },
+  tempoMakerInput: {
+    color: chart.colorFont,
+    fontFamily: chart.fontApp,
+    fontSize: 30,
+  },
+  tempoMakerInputBorder: {
+    borderColor: chart.colorShadow,
+    borderWidth: 2,
+    padding: 5,
+    minWidth: 100,
+    borderRadius: 5,
+    alignItems: "center",
+  },
+  tempoViewer: {
+    alignItems: "center",
+  },
+  tempoViewerButton: {
+    backgroundColor: chart.colorFont,
+    padding: 5,
+    margin: 30,
+    borderRadius: 5,
+    alignItems: "center",
+  },
+  tempoViewerText: {
+    color: chart.colorBack,
+    fontFamily: chart.fontApp,
+    fontSize: 30,
+  },
+  tempoViewerSelect: {
+    backgroundColor: chart.colorBack,
+    width: 150,
+  },
+  tempoViewerSelectText: {
+    color: chart.colorFont,
+    fontFamily: chart.fontApp,
+    fontSize: 30,
+  },
+  tempoViewerSelectOption: {
+    backgroundColor: chart.colorFont,
+  },
+  visualTempo: {
+    width: 300,
+    height: 300,
+    borderRadius: 150,
   },
 });
 
